@@ -17,7 +17,11 @@
 ;;; When you prefix C-u to a command, you're telling emacs to modify the functionality of that command
 ;;; States are represented by numbers, meaning that you can do something like C-u 10 my-command to access the 10th state of my-command
 
+;;; Note that you can pass negative arguments to some commands, for example the deletion command
+Word to delete  ; M- (Meta + minus sign) is negative argument, if you stand in to and you press just M-d, this deletes delete
+Another example ; but if you give M-d a negative argument, M- d w (Minus delete word), it deletes to
+
 
 ;;; A character in emacs is inserted into buffers by the self-insert-command; This makes the keyboard behave as other
-;;; commands in emac
+;;; command in 
 (describe-function 'self-insert-command)

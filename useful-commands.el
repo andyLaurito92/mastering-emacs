@@ -3,3 +3,5 @@
 
 ;;; Discovery of commands in the current mode
 (describe-function 'execute-extended-command-for-buffer) ; M-S-x (S = shift)
+
+(describe-function 'paredit-forward-kill-word) ; M-d
