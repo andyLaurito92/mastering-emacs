@@ -21,7 +21,11 @@
 Word to delete  ; M- (Meta + minus sign) is negative argument, if you stand in to and you press just M-d, this deletes delete
 Another example ; but if you give M-d a negative argument, M- d w (Minus delete word), it deletes to
 
-
 ;;; A character in emacs is inserted into buffers by the self-insert-command; This makes the keyboard behave as other
 ;;; command in 
 (describe-function 'self-insert-command)
+
+;;; For tinkering emacs, you have 2 options:
+;;; Either writing elisp functions or using M-x customize
+
+(describe-function 'customize) ; This is useful for modifying state of variables across emacs
