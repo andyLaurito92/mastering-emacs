@@ -4,3 +4,20 @@
 
 ;;; Once done the above, you can run the emacsclient binary by using emacsclient -t /path/to/file and this
 ;;; will open emacs in your terminal :)
+
+
+;;; Commands and functions
+;;; For a function to be accesible to a user, it must be interactive --> This is a command
+;;; 
+;;; If a function is not interactive, you cannot run it via M-x nor you can bind it to a key <--- Important! Only commands can be bind to keys
+
+
+;;; Some commands have alternate states, and to access them you need to give them a universal argument (prefix argument)
+;;; C-u stands up for the universal argument
+;;; When you prefix C-u to a command, you're telling emacs to modify the functionality of that command
+;;; States are represented by numbers, meaning that you can do something like C-u 10 my-command to access the 10th state of my-command
+
+
+;;; A character in emacs is inserted into buffers by the self-insert-command; This makes the keyboard behave as other
+;;; commands in emac
+(describe-function 'self-insert-command)
