@@ -29,3 +29,5 @@ Another example ; but if you give M-d a negative argument, M- d w (Minus delete 
 ;;; Either writing elisp functions or using M-x customize
 
 (describe-function 'customize) ; This is useful for modifying state of variables across emacs
+
+(package-list-packages) ; List all packages avaiable to install. You can click in one and get more info of it (like source code, maintainer, and others)
