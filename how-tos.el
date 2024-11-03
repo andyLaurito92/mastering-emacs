@@ -24,6 +24,7 @@ C-h f ; Describre function
 C-h m ; Describe mode
 C-h x ; Describe commmand
 C-h v ; Describe variable
+C-h k ; Describe  key
 
 ;;; How to do calculations in emacs
 
