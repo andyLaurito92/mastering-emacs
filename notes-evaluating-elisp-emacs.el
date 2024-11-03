@@ -14,7 +14,7 @@ values ; Contains values of last evaluated expressions
 ;; You can tell emacs to redo the previous command it did and let you edit the command beforehand by invoking C-x M-:
 ;; The above can be used to see how emacs execute interactive functions!
 
-;; Try doing 1) M-x dired, 2) C-x M-:
+;; Try doing 1) M-x dired, 2) C-x M- : (this is press META key + : (colon sign))
 
 
 (describe-function 'ielm) ; elisp repl
