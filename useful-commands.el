@@ -5,3 +5,6 @@
 (describe-function 'execute-extended-command-for-buffer) ; M-S-x (S = shift)
 
 (describe-function 'paredit-forward-kill-word) ; M-d
+
+;;; For exploring variables, functions and commands from a major mode
+(describe-function 'apropos-library)

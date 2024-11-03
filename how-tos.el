@@ -13,9 +13,17 @@ C-j ; eval expression and output in buffer
 ;;; How to ask for help in emacs
 
 C-h F ; Lookup the documentation for a command
+;; Note that the below keymap is only for commands. There are more functions related to apropos
+;; such as M-x apropos (command, variables, functions); M-x apropos-command (the one below),
+;; M-x apropos-documentation (searches just the docs) & others. Use apropos to learn more :)
 C-h a ; apropos command -> shows list of commands that match command containing regex
 C-h i ; Displays the info manual
 
+;; Describe functions
+C-h f ; Describre function
+C-h m ; Describe mode
+C-h x ; Describe commmand
+C-h v ; Describe variable
 
 ;;; How to do calculations in emacs
 
