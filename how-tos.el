@@ -34,3 +34,5 @@ C-x * * ; Opens emacs calculator
 ;;; How to's for Python
 g d ; evil-goto-definition, go to the definition of this class/method
 C-o ; evil-jump-backward; Go back to older position in jump list
+
+C-= ; Counts number of lines, sentences, words in current buffer
