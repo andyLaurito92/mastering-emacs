@@ -37,3 +37,9 @@ C-o ; evil-jump-backward; Go back to older position in jump list
 
 ;;; (count-words-region)
 C-= ; Counts number of lines, sentences, words in current buffer
+
+
+
+;;; Miscelanous
+
+mark-region + U -> upcase all letters in region
