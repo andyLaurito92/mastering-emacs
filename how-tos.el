@@ -46,3 +46,7 @@ mark-region + U -> upcase all letters in region
 
 C-h h ; Show a hello file with all unicode characters supported
 ;;; Useful to know which unicode characters are missing in the system
+
+
+C-h C <RET> ; Coding systems for the associated buffer, also can be seen
+;;; in the modeline
