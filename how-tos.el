@@ -43,3 +43,6 @@ C-= ; Counts number of lines, sentences, words in current buffer
 ;;; Miscelanous
 
 mark-region + U -> upcase all letters in region
+
+C-h h ; Show a hello file with all unicode characters supported
+;;; Useful to know which unicode characters are missing in the system
