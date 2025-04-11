@@ -6,6 +6,7 @@ emacs -q ; Do not load an init file
 ;;; How to evaluate lisp code
 
 C-x C-e; eval-last-sexp; 
+C-u C-x C-e; eval-last-sexp and print output in buffer 
 C-M-x ; eval-defun; it evaluates for the outermost form your point is in
 C-j ; eval expression and output in buffer
 
