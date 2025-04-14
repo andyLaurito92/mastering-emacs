@@ -36,8 +36,11 @@ C-x * * ; Opens emacs calculator
 g d ; evil-goto-definition, go to the definition of this class/method
 C-o ; evil-jump-backward; Go back to older position in jump list
 
+;;; STRINGs
+
 ;;; (count-words-region)
 C-= ; Counts number of lines, sentences, words in current buffer
+C-x C-l ; downcase-region (to lowercase selected region)
 
 
 
